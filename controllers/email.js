@@ -185,8 +185,8 @@ New Login
         port: 587,
         secure: false,
         auth: {
-            user: 'yoheskyjpp@gmail.com',
-            pass: 'fifa20esmejor'
+            user: process.env.EMAIL,
+            pass: process.env.PASS
         }
     })
 
