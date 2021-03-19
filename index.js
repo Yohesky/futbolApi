@@ -20,7 +20,7 @@ dbConnection()
 app.use("/api/leagues", require("./routes/leagues"))
 app.use("/api/teams", require("./routes/teams"))
 app.use("/api/positions", require("./routes/positions"))
-
+app.use("/api/email", require("./routes/email"))
 
 app.listen(process.env.PORT, () => {
     console.log("server running at", process.env.PORT)
